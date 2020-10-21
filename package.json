@@ -1,0 +1,35 @@
+{
+	"name": "paypal-ordercheck",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Component to check your Paypal order",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"paypal-ordercheck"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "18.0.0",
+		"@servicenow/cli-component-archetype": "18.0.0",
+		"@servicenow/library-translate": "paris",
+		"@servicenow/now-button": "^18.4.2",
+		"@servicenow/now-input": "^18.4.2",
+		"@servicenow/now-loader": "^18.4.2",
+		"@servicenow/sass-kit": "paris",
+		"@servicenow/sass-theme": "paris",
+		"@servicenow/ui-core": "paris",
+		"@servicenow/ui-renderer-snabbdom": "paris",
+		"axios": "^0.20.0",
+		"node-sass": "^4.14.1"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "18.0.0",
+		"@servicenow/cli-component-archetype-dev": "^18.0.0"
+	}
+}

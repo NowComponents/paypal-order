@@ -1,0 +1,22 @@
+@import '@servicenow/sass-kit/host';
+
+
+table {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    justify-content: space-between;
+//    flex: 1;
+   // display: grid;
+  //  border-collapse: collapse;
+    margin: 2px;
+}
+
+
+th, td {
+    border-radius: 3px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
